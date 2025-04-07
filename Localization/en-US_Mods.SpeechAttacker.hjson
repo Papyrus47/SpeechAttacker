@@ -1,2 +1,14 @@
-# This file will automatically update with entries for new content after a build and reload.
+Projectiles.ChatProj.DisplayName: Chat Proj
+DamageClasses.ChatDamage.DisplayName: Chat Damage
 
+Tooltip: {
+	AddDamage: Chat Damage Bonus:
+	Skill.Boom: On hit,generate a number 1 attack.
+}
+
+Items: {
+	TestChatItem: {
+		DisplayName: Test Chat Item
+		Tooltip: ""
+	}
+}

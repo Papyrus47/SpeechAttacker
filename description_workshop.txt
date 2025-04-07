@@ -1,1 +1,9 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+﻿[h1]言语攻击：一种伤害他人的存在。[/h1]
+[b]我希望通过此Mod，让所有游玩该Mod的人知道言语攻击对人的伤害。[/b]
+[spoiler]制作Mod的原因：因为我被人说的话伤害了，所以一气之下就想做这个Mod。[/spoiler]
+言语攻击有时是无意的，我们必须得警惕。
+现在，你可以玩着这个超模Mod，去肆意言语攻击所有敌对NPC。
+但是结果是什么呢？谁知道呢？
+人们互喷，这种无形的攻击，会对人造成多大的伤害呢？
+谁知道，也许只有受害者自己知道吧。
+Only One Player	单人限定

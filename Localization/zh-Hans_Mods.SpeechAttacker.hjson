@@ -1,0 +1,14 @@
+Projectiles.ChatProj.DisplayName: 语言弹幕
+DamageClasses.ChatDamage.DisplayName: 语言伤害
+
+Tooltip: {
+	AddDamage: 语言伤害加成：
+	Skill.Boom: 命中时,产生数字1追击。
+}
+
+Items: {
+	TestChatItem: {
+		DisplayName: 开发者语言攻击
+		Tooltip: 你好
+	}
+}
