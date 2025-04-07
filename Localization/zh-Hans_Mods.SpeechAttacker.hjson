@@ -3,6 +3,7 @@ DamageClasses.ChatDamage.DisplayName: 语言伤害
 
 Tooltip: {
 	AddDamage: 语言伤害加成：
+	AddText: 增加输入语言文：
 	Skill.Boom: 命中时,产生数字1追击。
 }
 

@@ -3,6 +3,7 @@ DamageClasses.ChatDamage.DisplayName: Chat Damage
 
 Tooltip: {
 	AddDamage: Chat Damage Bonus:
+	AddText: Add Chat Text Num:
 	Skill.Boom: On hit,generate a number 1 attack.
 }
 

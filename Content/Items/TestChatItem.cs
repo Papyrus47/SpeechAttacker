@@ -12,6 +12,7 @@ namespace SpeechAttacker.Content.Items
         public override void SetDefaults()
         {
             base.SetDefaults();
+            AddTextNum = 5;
             Item.damage = 10;
             DamageBones += 10;
             DamageBones *= 10;

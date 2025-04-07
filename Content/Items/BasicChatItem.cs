@@ -12,7 +12,14 @@ namespace SpeechAttacker.Content.Items
 {
     public abstract class BasicChatItem : ModItem
     {
+        /// <summary>
+        /// 伤害增量
+        /// </summary>
         public StatModifier DamageBones;
+        /// <summary>
+        /// 语言增加量
+        /// </summary>
+        public int AddTextNum;
         public override void SetDefaults()
         {
             Item.damage = 1;
@@ -24,7 +31,8 @@ namespace SpeechAttacker.Content.Items
             int index = tooltips.FindIndex(x => x.Name == "Damage" && x.Mod == "Terraria");
             if (index != -1)
             {
-                tooltips.Insert(index + 1, new TooltipLine(Mod, "AddDamage", Language.GetTextValue("Mods.SpeechAttacker.Tooltip.AddDamage") + "+" + (DamageBones.Additive * 100 - 100).ToString() + "% *" + DamageBones.Multiplicative.ToString() + " -1bit"));
+                tooltips.Insert(index + 1, new TooltipLine(Mod, "AddDamage", Language.GetTextValue("Mods.SpeechAttacker.Tooltip.AddDamage") + "+" + (DamageBones.Additive * 100 - 100).ToString() + "% *" + DamageBones.Multiplicative.ToString() + " -1byte"));
+                tooltips.Insert(index + 1, new TooltipLine(Mod, "AddText", Language.GetTextValue("Mods.SpeechAttacker.Tooltip.AddText") + AddTextNum.ToString()));
             }
             if(this is ISkills) // 这里处理各种情况
             {
