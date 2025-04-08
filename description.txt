@@ -6,4 +6,14 @@
 但是结果是什么呢？谁知道呢？
 人们互喷，这种无形的攻击，会对人造成多大的伤害呢？
 谁知道，也许只有受害者自己知道吧。
-Only One Player	单人限定
+
+Verbal Attacks: A Harmful Presence.
+Through this Mod, I hope to make all players aware of the harm caused by verbal attacks.
+Reason for creating this Mod: I was deeply hurt by someone's words, so I made this Mod in a fit of anger.
+Verbal attacks can sometimes be unintentional, yet we must remain vigilant.
+Now, you can wield this overpowered Mod to verbally assault all hostile NPCs.
+But what will the consequences be? Who knows?
+How much invisible damage do these intangible attacks inflict when people hurl insults at each other?
+Who truly understands? Perhaps only the victims themselves truly know.
+
+Only Single Player	单人限定

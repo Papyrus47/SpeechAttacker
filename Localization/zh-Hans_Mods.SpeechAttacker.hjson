@@ -4,12 +4,75 @@ DamageClasses.ChatDamage.DisplayName: 语言伤害
 Tooltip: {
 	AddDamage: 语言伤害加成：
 	AddText: 增加输入语言文：
-	Skill.Boom: 命中时,产生数字1追击。
+	AddTextLength: 输入文本长度：
+
+	Skill: {
+		Boom: 命中时,产生字符"Boom"
+		Trace: 文字追踪目标.
+		Summon: 对话将跟随你。
+		Penetrate: 穿透5次目标。
+	}
 }
 
 Items: {
 	TestChatItem: {
 		DisplayName: 开发者语言攻击
 		Tooltip: 你好
+	}
+
+	BloodChat: {
+		DisplayName: 血腥言语攻击
+		Tooltip: 语言攻击的暴力是这样的，他们不血腥，但会让人心碎，某种意义上，它们是血腥的
+	}
+
+	NightLightChat: {
+		DisplayName: 夜光言语攻击
+		Tooltip: 语言攻击的人们是活在夜晚之中的，他们的伤害无声无息，无孔不入。
+	}
+
+	NormalChat: {
+		DisplayName: 普通言语攻击
+		Tooltip: 是的，有一个键盘，你就是互联网键盘侠
+	}
+
+	GrassChat: {
+		DisplayName: 草言语攻击
+		Tooltip: 草你妈一直是人们的强项
+	}
+
+	MeteoriteChat: {
+		DisplayName: 陨石言语攻击
+		Tooltip:
+			'''
+			语言攻击不像陨石一样有价值，但是总有些人会不顾这个价值，让自己开心。
+			消耗50点魔力自动逐字输入“Fuck you ”
+			'''
+	}
+
+	ShitChat: {
+		DisplayName: Shit言语攻击
+		Tooltip:
+			'''
+			发射unicode码。
+			在输入shit的时候，发射更多shit的unicode码。
+			'''
+	}
+
+	MeteoriteTimeStop: {
+		DisplayName: 陨石时间停止
+		Tooltip:
+			'''
+			打字的时候，停止一切时间流动，持续半秒。
+			如果打字时间超过暂停时间，则进入CD两秒，但你会每5帧发射以帧为倒计时的字体弹幕。
+			'''
+	}
+
+	VolcanoChat: {
+		DisplayName: 火山言语攻击
+		Tooltip:
+			'''
+			随着时间推移，人们的愤怒像火山一样爆发了。
+			每有一个字符，生成一个"<=>"追踪弹幕。
+			'''
 	}
 }

@@ -4,12 +4,67 @@ DamageClasses.ChatDamage.DisplayName: Chat Damage
 Tooltip: {
 	AddDamage: Chat Damage Bonus:
 	AddText: Add Chat Text Num:
-	Skill.Boom: On hit,generate a number 1 attack.
+	AddTextLength: Chat Lenght:
+
+	Skill: {
+		Boom: On hit,generate a "Boom" char attack.
+		Trace: Trace Target.
+		Summon: Summon Chat Follow you.
+		Penetrate: Penetrate target 5 hit.
+	}
 }
 
 Items: {
 	TestChatItem: {
 		DisplayName: Test Chat Item
+		Tooltip: ""
+	}
+
+	BloodChat: {
+		DisplayName: Blood Chat
+		Tooltip: Speech attack no bloody,but it "Bloody".
+	}
+
+	NightLightChat: {
+		DisplayName: Night Light Chat
+		Tooltip: Speech attack in night,there are killer.
+	}
+
+	NormalChat: {
+		DisplayName: Normal Chat
+		Tooltip: Has keyboard,has world.
+	}
+
+	GrassChat: {
+		DisplayName: Grass Chat
+		Tooltip: Human are good at "Fuck You Mother!".
+	}
+
+	MeteoriteChat: {
+		DisplayName: Meteorite Chat
+		Tooltip:
+			'''
+			Speech attacks are not as valuable as meteorites, but there are always people who will ignore this value and make themselves happy.
+			Use 50 mana enter "Fuck you "
+			'''
+	}
+
+	ShitChat: {
+		DisplayName: Shit Chat
+		Tooltip:
+			'''
+			Shoot unicode.
+			Shoot more "shit" unicode if enter shit.
+			'''
+	}
+
+	MeteoriteTimeStop: {
+		DisplayName: Meteorite Time Stop
+		Tooltip: ""
+	}
+
+	VolcanoChat: {
+		DisplayName: Volcano Chat
 		Tooltip: ""
 	}
 }

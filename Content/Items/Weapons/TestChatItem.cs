@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpeechAttacker.Content.Items
+namespace SpeechAttacker.Content.Items.Weapons
 {
     public class TestChatItem : BasicChatItem,IBoom
     {
@@ -13,6 +13,7 @@ namespace SpeechAttacker.Content.Items
         {
             base.SetDefaults();
             AddTextNum = 5;
+            AddTextLength = 11400;
             Item.damage = 10;
             DamageBones += 10;
             DamageBones *= 10;
